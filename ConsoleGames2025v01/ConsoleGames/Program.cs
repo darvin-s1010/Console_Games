@@ -9,6 +9,7 @@ namespace ConsoleGames
     public static class Program
     {
         static Game[] gameArray = new Game[] {
+            new Games.Breakout(),
             new Games.GuessNumber(),
         };
         
